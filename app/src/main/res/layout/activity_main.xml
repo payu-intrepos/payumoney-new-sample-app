@@ -1,0 +1,469 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.rahulhooda.integrationsampleapp_payumoneypnp.FinalCode.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/dimen_5dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:padding="@dimen/dimen_10dp"
+                app:cardBackgroundColor="@color/light_white"
+                app:cardCornerRadius="@dimen/dimen_3dp"
+                app:cardElevation="@dimen/dimen_5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPaddingBottom="@dimen/dimen_10dp"
+                app:contentPaddingLeft="@dimen/dimen_15dp"
+                app:contentPaddingRight="@dimen/dimen_15dp"
+                app:contentPaddingTop="@dimen/dimen_10dp"
+                card_view:cardElevation="@dimen/dimen_5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select Environment"
+                        android:textColor="@color/payumoney_black"
+                        android:textSize="@dimen/dimen_18sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_grp_env"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:paddingRight="@dimen/dimen_5dp">
+
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/radio_btn_sandbox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="@integer/int_1"
+                            android:text="Sandbox"
+                            android:textColor="@color/payumoney_black" />
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/radio_btn_production"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="@integer/int_1"
+                            android:checked="true"
+                            android:text="Production" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:padding="@dimen/dimen_10dp"
+                app:cardBackgroundColor="@color/light_white"
+                app:cardCornerRadius="@dimen/dimen_3dp"
+                app:cardElevation="@dimen/dimen_5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPaddingBottom="@dimen/dimen_5dp"
+                app:contentPaddingLeft="@dimen/dimen_15dp"
+                app:contentPaddingRight="@dimen/dimen_15dp"
+                app:contentPaddingTop="@dimen/dimen_5dp"
+                card_view:cardElevation="@dimen/dimen_5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter User details"
+                        android:textColor="@color/payumoney_black"
+                        android:textSize="@dimen/dimen_18sp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/email_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        app:errorEnabled="false">
+
+                        <EditText
+                            android:id="@+id/email_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:hint="Enter email"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:nextFocusDown="@+id/card_name_et"
+                            android:textColor="@color/payumoney_black"
+                            android:textSize="16sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/mobile_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="false">
+
+                        <EditText
+                            android:id="@+id/mobile_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:hint="Enter mobile"
+                            android:imeOptions="actionDone"
+                            android:inputType="phone"
+                            android:maxLength="10"
+                            android:maxLines="1"
+                            android:nextFocusDown="@+id/card_name_et"
+                            android:textColor="@color/payumoney_black"
+                            android:textSize="16sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/amount_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="false">
+
+                        <EditText
+                            android:id="@+id/amount_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:hint="Enter amount"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLines="1"
+                            android:textColor="@color/payumoney_black"
+                            android:textSize="16sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/activity_title_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="false">
+
+                        <EditText
+                            android:id="@+id/activity_title_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:hint="Activity title"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:textColor="@color/payumoney_black"
+                            android:textSize="16sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/status_page_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:errorEnabled="false">
+
+                        <EditText
+                            android:id="@+id/status_page_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:hint="Status page text"
+                            android:imeOptions="actionNext"
+                            android:maxLines="1"
+                            android:textColor="@color/payumoney_black"
+                            android:textSize="16sp" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:padding="@dimen/dimen_10dp"
+                app:cardBackgroundColor="@color/light_white"
+                app:cardCornerRadius="@dimen/dimen_3dp"
+                app:cardElevation="@dimen/dimen_5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPaddingBottom="@dimen/dimen_10dp"
+                app:contentPaddingLeft="@dimen/dimen_5dp"
+                app:contentPaddingRight="@dimen/dimen_5dp"
+                app:contentPaddingTop="@dimen/dimen_10dp"
+                card_view:cardElevation="@dimen/dimen_5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_5dp"
+                        android:text="Quick Pay Options"
+                        android:textColor="@color/payumoney_black"
+                        android:textSize="@dimen/dimen_18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/switchTxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Disable Wallet"
+                                android:textColor="@color/payumoney_black" />
+
+                            <android.support.v7.widget.SwitchCompat
+                                android:id="@+id/switch_disable_wallet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Disable NetBanking"
+                                android:textColor="@color/payumoney_black" />
+
+                            <android.support.v7.widget.SwitchCompat
+                                android:id="@+id/switch_disable_netbanks"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/switchLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Disable Cards"
+                                android:textColor="@color/payumoney_black" />
+
+                            <android.support.v7.widget.SwitchCompat
+                                android:id="@+id/switch_disable_cards"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:padding="@dimen/dimen_10dp"
+                app:cardBackgroundColor="@color/light_white"
+                app:cardCornerRadius="@dimen/dimen_3dp"
+                app:cardElevation="@dimen/dimen_5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPaddingBottom="@dimen/dimen_10dp"
+                app:contentPaddingLeft="@dimen/dimen_5dp"
+                app:contentPaddingRight="@dimen/dimen_5dp"
+                app:contentPaddingTop="@dimen/dimen_10dp"
+                card_view:cardElevation="@dimen/dimen_5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_5dp"
+                        android:text="Select color theme"
+                        android:textColor="@color/payumoney_black"
+                        android:textSize="@dimen/dimen_18sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_grp_color_theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:paddingRight="@dimen/dimen_5dp">
+
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/radio_btn_theme_default"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="@integer/int_1"
+                            android:button="@null"
+                            android:checked="true"
+                            android:drawableTop="?android:attr/listChoiceIndicatorSingle"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="Default"
+                            android:textColor="@color/orange_accent"
+                            android:textStyle="bold"
+                            android:theme="@style/ThemeRadioButton.Default" />
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/radio_btn_theme_pink"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="@integer/int_1"
+                            android:button="@null"
+                            android:drawableTop="?android:attr/listChoiceIndicatorSingle"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="Pink"
+                            android:textColor="@color/pink_accent"
+                            android:textStyle="bold"
+                            android:theme="@style/ThemeRadioButton.Pink" />
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/radio_btn_theme_grey"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="@integer/int_1"
+                            android:button="@null"
+                            android:drawableTop="?android:attr/listChoiceIndicatorSingle"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="Grey"
+                            android:textColor="@color/persian_grey_dark"
+                            android:textStyle="bold"
+                            android:theme="@style/ThemeRadioButton.Grey" />
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/radio_btn_theme_green"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="@integer/int_1"
+                            android:button="@null"
+                            android:drawableTop="?android:attr/listChoiceIndicatorSingle"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="Green"
+                            android:textColor="@color/persian_green_accent"
+                            android:textStyle="bold"
+                            android:theme="@style/ThemeRadioButton.Green" />
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/radio_btn_theme_purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="@integer/int_1"
+                            android:button="@null"
+                            android:drawableTop="?android:attr/listChoiceIndicatorSingle"
+                            android:gravity="center_horizontal|bottom"
+                            android:text="Purple"
+                            android:textColor="@color/purple_accent"
+                            android:textStyle="bold"
+                            android:theme="@style/ThemeRadioButton.Purple" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_25dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingRight="@dimen/dimen_10dp">
+
+
+                <Button
+                    android:id="@+id/pay_now_button"
+                    style="@style/ButtonStyle"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_weight="1"
+                    android:text="Pay Now" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/logout_button"
+                style="@style/ButtonStyle"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:onClick="onClick"
+                android:text="@string/log_out_user" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+

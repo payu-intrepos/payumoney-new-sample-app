@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntegrationSampleApp-PayumoneyPnP</string>
+    <string name="log_out_user">Log out user</string>
+
+</resources>
