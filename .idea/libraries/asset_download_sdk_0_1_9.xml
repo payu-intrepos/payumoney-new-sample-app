@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="asset-download-sdk-0.1.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.payumoney.graphics/asset-download-sdk/0.1.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.payumoney.graphics/asset-download-sdk/0.1.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.payumoney.graphics/asset-download-sdk/0.1.9/205067f8bf831b207616b3921c7d589d52bf42d9/asset-download-sdk-0.1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
