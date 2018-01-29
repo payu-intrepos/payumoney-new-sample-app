@@ -304,7 +304,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 // Response from SURl and FURL
                 String merchantResponse = transactionResponse.getTransactionDetails();
 
-                new AlertDialog.Builder(this)
+               new AlertDialog.Builder(this)
                         .setCancelable(false)
                         .setMessage("Payu's Data : " + payuResponse + "\n\n\n Merchant's Data: " + merchantResponse)
                         .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
@@ -347,7 +347,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         radioGroup_color_theme.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
-                mAppPreference.setOverrideResultScreen(false);
+                mAppPreference.setOverrideResultScreen(true);
 
                 switch (i) {
                     case R.id.radio_btn_theme_default:
@@ -513,8 +513,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
              * Do not use below code when going live
              * Below code is provided to generate hash from sdk.
              * It is recommended to generate hash from server side only.
-             * *//*
-            mPaymentParams = calculateServerSideHashAndInitiatePayment1(mPaymentParams);
+             * */
+           /* mPaymentParams = calculateServerSideHashAndInitiatePayment1(mPaymentParams);
 
            if (AppPreference.selectedTheme != -1) {
                 PayUmoneyFlowManager.startPayUMoneyFlow(mPaymentParams,MainActivity.this, AppPreference.selectedTheme,mAppPreference.isOverrideResultScreen());

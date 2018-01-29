@@ -3,210 +3,210 @@
 
     <item
         is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.2.1_485c31753251071b7fe2432cc0c96256890f79f0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.payumoney.graphics/asset-download-sdk/0.1.9/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="97e8b48d7874dad1ded66324f8a879c1c3b17172">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.payumoney.graphics-asset-download-sdk-0.1.9_7d5d873c0ed8a64e8661b77e1eb8612da1b015c6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_9cd58f35c6e4e7f13344209da493278e5edac9da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_b2cc78d88125740b2d72c10fefee9744fbe32587.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.2.2_16ebb571f5029bf6241cb755960f5b0c52233691.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.payumoney.sdkui/plug-n-play/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="179b5ab02f5f249358175c7c62a1a3e4a4dff591">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.payumoney.sdkui-plug-n-play-1.0.0_b1c573fc287f5ae30eb68f2e1515acb524e4558c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_87f96b193729d623403afd62a852d1ac64526b0d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_ecf46047118aec5269ff769ea42315610d8a962d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_685ecc257271408f9c913f75d41649448a95a044.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.10/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.10_9ce438da8c302c431859e4e00440d62b978b24f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.github.aakira/expandable-layout/1.6.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3cef25b344d6893e5e2d9b1ae38d180955e9d3ef">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.github.aakira-expandable-layout-1.6.0_b2b984935add8cbab11b56f280d7a3f9e64afeac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.14_a7438f5e47386fe5a4cd2290dd1e91135288e155.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.14/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7ff77725723167163d69439e3fd077bd0899babf">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.14_043a18d32ce274362d25b818a4723c0e2195a7f0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_9205fba205a1ca98fb6b63c22e60c53e1908a59f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/6.1.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="feb035e98d4fef27ff2a6f45bbaac40c07a6596a">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.payu.custombrowser-payu-custom-browser-6.1.3_0b044e09351aab763443972af5c98999d51135e7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_8ba3c60e768bf0d379b053cc45e6a0d9bb6230bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/.gradle/caches/modules-2/files-2.1/com.jakewharton/disklrucache/2.0.2/93b399470e72c0bc8cb52379943b63c9aa586cd8/disklrucache-2.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/disklrucache-2.0.2_367637d4763e9cef72cb6c2d2ba233fd0b919ecc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_526ed60684cc3e4c090287e9982f6b87bb5d03bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.payumoney.core/payumoney-sdk/7.0.1/jars/classes.jar"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.payumoney.core/payumoney-sdk/7.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c93ec2c2bacd3fc6a24530d6c0be4afdbde0ba3d">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.payumoney.core-payumoney-sdk-7.0.1_d6bc0dd932d961e1e1dd5fae0b8233364ffa9b53.jar" />
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.payumoney.core-payumoney-sdk-7.0.1_df116676a10ed506909ceb956733d532b69c18ed.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.5/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="591e7c1eb05bda2bcee22d151402fd8d61ffeca9">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.payu.magicretry-magicretry-1.0.5_491cbc9f9897e46bbc1ce73108921150d4b7fe13.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.5/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.6.5_05df65fddca78bf0d832db5f7d648eeb60253036.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_e4f51fbb2f89bb9e0dd44392e232d2b678273879.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/disha.mukherjee/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jar="/Users/dolly.mittal/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="/Users/disha.mukherjee/github/payumoney-new-sample-app/app/build/intermediates/pre-dexed/debug/gson-2.6.2_ed65194ba9f1cb7435f29d8d7119d6b75533830d.jar" />
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/gson-2.6.2_180dc0b17117b6e64f33f57b81cb5f2f9549ee94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.2.2_8e4e27a6e3511fe1c877dd385b1e60e0a2a9f9f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_c410a3830aa4baab4ff52ba8346b34cb507450e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.payu.magicretry/magicretry/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="591e7c1eb05bda2bcee22d151402fd8d61ffeca9">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.payu.magicretry-magicretry-1.0.5_07c023fb05cf612a2bc5b172658da606c9c61f21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.10/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.3.10_000258e23a9ac5a39f1f9c9c847b75afa55cc128.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_430f0ce6b43775efebd1696ba1d0c1d8b2ab201f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/.gradle/caches/modules-2/files-2.1/com.jakewharton/disklrucache/2.0.2/93b399470e72c0bc8cb52379943b63c9aa586cd8/disklrucache-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/disklrucache-2.0.2_3a50733efd42f6ca80d504930dd6f7512356da80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_bd94f37a105bd97bfadf64f74acab08504330ce7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_b40dfcf02ca603e24900b330109377e1716a6ea7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.payumoney.sdkui/plug-n-play/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="179b5ab02f5f249358175c7c62a1a3e4a4dff591">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.payumoney.sdkui-plug-n-play-1.0.0_07499f1fa257ac3b76b1aa3dbd71a6a0c7755bab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_23177bd51aefce5ac652a9d82a3accaa0a93972f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_4005374accbeef53a943956eb434dd0dc51f999c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.3.14_1997e36bba186c18f8b59d71b5e5012152403950.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.14/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.14_7f00c271e3c0d12dc987e31c380fc9b0ff02682b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_bd23756369780c5db44b9cfac46f2bddcdafd1fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.github.aakira/expandable-layout/1.6.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3cef25b344d6893e5e2d9b1ae38d180955e9d3ef">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.github.aakira-expandable-layout-1.6.0_bf472fd65e70dc10d262dfc013184965386d7597.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_a4000ba6e0126e85fba962518b13e276e388450f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.payu.custombrowser/payu-custom-browser/6.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="feb035e98d4fef27ff2a6f45bbaac40c07a6596a">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.payu.custombrowser-payu-custom-browser-6.1.3_7bd4192035bee518b38d0615176747bc2345a34d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.2.1_c9437c6d3a96013474663a69b73e38d19d95b4a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.6.5_b1ab04e45b755d7dbc1b0d42abefcf76178ad420.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_b664784a1a91a72a4f1421c1e8dd7aaa43d8f457.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/exploded-aar/com.payumoney.graphics/asset-download-sdk/0.1.9/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="97e8b48d7874dad1ded66324f8a879c1c3b17172">
+        <dex dex="/Users/dolly.mittal/Downloads/payumoney-new-sample-app-master/app/build/intermediates/pre-dexed/debug/com.payumoney.graphics-asset-download-sdk-0.1.9_d2b174fcc4fe6b9a86b4e263f115a4001ed3e7f0.jar" />
     </item>
 
 </items>

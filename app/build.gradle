@@ -27,8 +27,12 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -43,10 +47,6 @@ dependencies {
 
     compile 'com.android.support:cardview-v7:23.2.1'
     compile 'com.android.support:appcompat-v7:23.2.1'
-    compile('com.payumoney.sdkui:plug-n-play:1.0.0'){
-        transitive = true;
-        exclude module: 'payumoney-sdk'
-    }
+    compile('com.payumoney.sdkui:plug-n-play:1.1.0')
 
-    compile 'com.payumoney.core:payumoney-sdk:7.0.1'
 }

@@ -40,13 +40,13 @@ public enum AppEnvironment {
     PRODUCTION {
         @Override
         public String merchant_Key() {
-            return "O15vkB";
-        }
+            return "dcwQGU";
+        }  //O15vkB
 
         @Override
         public String merchant_ID() {
-            return "4819816";
-        }
+            return "4931752";
+        }   //4819816
 
         @Override
         public String furl() {
@@ -60,8 +60,8 @@ public enum AppEnvironment {
 
         @Override
         public String salt() {
-            return "LU1EhObh";
-        }
+            return "dzC2i5pp";
+        }     //LU1EhObh
 
         @Override
         public boolean debug() {

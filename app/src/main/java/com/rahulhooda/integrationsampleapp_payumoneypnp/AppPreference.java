@@ -14,7 +14,7 @@ public class AppPreference {
     private String dummyEmail = "xyz@gmail.com";
     private String productInfo = "product_info";
     private String firstName = "firstname";
-    private boolean isOverrideResultScreen = false;
+    private boolean isOverrideResultScreen = true;
  
     public static final String USER_EMAIL = "user_email";
     public static final String USER_MOBILE = "user_mobile";
