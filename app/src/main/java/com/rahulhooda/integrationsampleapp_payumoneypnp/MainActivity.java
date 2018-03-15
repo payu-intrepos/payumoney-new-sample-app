@@ -35,7 +35,6 @@ import com.payumoney.core.entity.TransactionResponse;
 import com.payumoney.sdkui.ui.utils.PPConfig;
 import com.payumoney.sdkui.ui.utils.PayUmoneyFlowManager;
 import com.payumoney.sdkui.ui.utils.ResultModel;
-import com.rahulhooda.integrationsampleapp_payumoneypnp.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -57,7 +56,7 @@ import java.util.regex.Pattern;
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     public static final String TAG = "MainActivity : ";
-
+    private boolean isDisableExitConfirmation = false;
     private String userMobile, userEmail;
     private SharedPreferences settings;
     private SharedPreferences.Editor editor;
@@ -65,7 +64,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private EditText email_et, mobile_et, amount_et;
     private TextInputLayout email_til, mobile_til;
     private RadioGroup radioGroup_color_theme, radioGroup_select_env;
-    private SwitchCompat switch_disable_wallet, switch_disable_netBanks, switch_disable_cards;
+    private SwitchCompat switch_disable_wallet, switch_disable_netBanks, switch_disable_cards, switch_disable_ThirdPartyWallets, switch_disable_ExitConfirmation;
     private TextView logoutBtn;
     private AppCompatRadioButton radio_btn_default;
     private AppPreference mAppPreference;
@@ -108,6 +107,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         switch_disable_wallet = (SwitchCompat) findViewById(R.id.switch_disable_wallet);
         switch_disable_netBanks = (SwitchCompat) findViewById(R.id.switch_disable_netbanks);
         switch_disable_cards = (SwitchCompat) findViewById(R.id.switch_disable_cards);
+        switch_disable_ThirdPartyWallets = (SwitchCompat) findViewById(R.id.switch_disable_ThirdPartyWallets);
+        switch_disable_ExitConfirmation = (SwitchCompat) findViewById(R.id.switch_disable_ExitConfirmation);
         AppCompatRadioButton radio_btn_sandbox = (AppCompatRadioButton) findViewById(R.id.radio_btn_sandbox);
         AppCompatRadioButton radio_btn_production = (AppCompatRadioButton) findViewById(R.id.radio_btn_production);
         radioGroup_select_env = (RadioGroup) findViewById(R.id.radio_grp_env);
@@ -182,6 +183,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         switch_disable_wallet.setChecked(mAppPreference.isDisableWallet());
         switch_disable_cards.setChecked(mAppPreference.isDisableSavedCards());
         switch_disable_netBanks.setChecked(mAppPreference.isDisableNetBanking());
+        switch_disable_ThirdPartyWallets.setChecked(mAppPreference.isDisableThirdPartyWallets());
+        switch_disable_ExitConfirmation.setChecked(mAppPreference.isDisableExitConfirmation());
 
         //Set Up saved theme pref
         switch (AppPreference.selectedTheme) {
@@ -410,6 +413,19 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             }
         });
 
+        switch_disable_ThirdPartyWallets.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                PPConfig.getInstance().disableThirdPartyWallets(b);
+            }
+        });
+
+        switch_disable_ExitConfirmation.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                isDisableExitConfirmation = b;
+            }
+        });
     }
 
     /**
@@ -452,6 +468,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
         //Use this to set your custom title for the activity
         payUmoneyConfig.setPayUmoneyActivityTitle(((EditText) findViewById(R.id.activity_title_et)).getText().toString());
+
+        payUmoneyConfig.disableExitConfirmation(isDisableExitConfirmation);
 
         PayUmoneySdkInitializer.PaymentParam.Builder builder = new PayUmoneySdkInitializer.PaymentParam.Builder();
 

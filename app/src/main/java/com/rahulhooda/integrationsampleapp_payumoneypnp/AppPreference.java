@@ -23,7 +23,7 @@ public class AppPreference {
     public static String USER_DETAILS = "user_details";
     public static int selectedTheme = -1;
 
-    private boolean isDisableWallet, isDisableSavedCards, isDisableNetBanking;
+    private boolean isDisableWallet, isDisableSavedCards, isDisableNetBanking, isDisableThirdPartyWallets, isDisableExitConfirmation;
 
     boolean isDisableWallet() {
         return isDisableWallet;
@@ -47,6 +47,20 @@ public class AppPreference {
 
     void setDisableNetBanking(boolean disableNetBanking) {
         isDisableNetBanking = disableNetBanking;
+    }
+    boolean isDisableThirdPartyWallets() {
+        return isDisableThirdPartyWallets;
+    }
+
+    void setDisableThirdPartyWallets(boolean disableThirdPartyWallets) {
+        isDisableThirdPartyWallets = disableThirdPartyWallets;
+    }
+    boolean isDisableExitConfirmation() {
+        return isDisableExitConfirmation;
+    }
+
+    void setDisableExitConfirmation(boolean disableExitConfirmation) {
+        isDisableExitConfirmation = disableExitConfirmation;
     }
 
     public String getDummyMobile() {
