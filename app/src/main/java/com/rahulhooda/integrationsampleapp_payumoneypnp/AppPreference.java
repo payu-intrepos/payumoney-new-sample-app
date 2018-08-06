@@ -9,7 +9,6 @@ package com.rahulhooda.integrationsampleapp_payumoneypnp;
  * */
 public class AppPreference {
 
-    private String dummyMobile = "9881716157";
     private String dummyAmount = "10";
     private String dummyEmail = "xyz@gmail.com";
     private String productInfo = "product_info";
@@ -61,14 +60,6 @@ public class AppPreference {
 
     void setDisableExitConfirmation(boolean disableExitConfirmation) {
         isDisableExitConfirmation = disableExitConfirmation;
-    }
-
-    public String getDummyMobile() {
-        return dummyMobile;
-    }
-
-    public void setDummyMobile(String dummyMobile) {
-        this.dummyMobile = dummyMobile;
     }
 
     public String getDummyAmount() {

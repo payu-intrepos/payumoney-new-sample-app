@@ -171,7 +171,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private void setUpUserDetails() {
         userDetailsPreference = getSharedPreferences(AppPreference.USER_DETAILS, MODE_PRIVATE);
         userEmail = userDetailsPreference.getString(AppPreference.USER_EMAIL, mAppPreference.getDummyEmail());
-        userMobile = userDetailsPreference.getString(AppPreference.USER_MOBILE, mAppPreference.getDummyMobile());
+        userMobile = userDetailsPreference.getString(AppPreference.USER_MOBILE,"");
         email_et.setText(userEmail);
         mobile_et.setText(userMobile);
         amount_et.setText(mAppPreference.getDummyAmount());
