@@ -1,0 +1,435 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/5b45aff05aa0b0d93bbd03fb5a533cb9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.5.aar/a2500dee0a253f8f6e5f5777091401b7/AndroidManifest.xml:2:1-13:12
+MERGED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:2:1-31:12
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:design:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/f8965b45b69b47e97277d5a814b75cae/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/88d6e286facfe74e1acae828295e41b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:2:1-50:12
+MERGED from [com.payu.magicretry:magicretry:1.0.6] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/magicretry-1.0.6.aar/62466255051e1b6cd3c3d4f8426ba46d/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d95589aeb388d4d0c98a779563e3113d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/beta-1.2.2.aar/f2ff0080d22fdbce65bdfea15c72a4a1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.14.aar/00c83355d1bfaa026c3ac0cddfcf00e7/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/answers-1.3.10.aar/63dfd7b71bcb3afee0dc791e5bd034ff/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/fabric-1.3.14.aar/3471797db0dcfb35dcfc26e3ad9d14e5/AndroidManifest.xml:18:1-29:12
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.4.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.4.1.aar/81a743d5dacc86759231bdae093945a2/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/94c78e8c4318e59391492d84791ca781/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9af338e0a793363bbd6dd53ffae5173d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e3ad1c04220d64c4215567c1243f83ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/06641b100718722e08050d08c9282e61/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/eb4f07d8b6481fec13afa12d52889399/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1f41fb3637510d1b77bd6c547c15e47b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/6061be9088bbf6a113758c608b9d2576/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2f4a7f8261b6a5e25549666b5114602b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06227589a8e647012f1beb08cc28f3f9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3573c5ccf55d3e8679cc0ca9a0530e8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9a6020254cbaf1f1cf3f70af2e2ed8e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/fdd2e51107b76be44e9f59e0d82527e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/9788171451551a823cdff72e034cd1ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0c0b614c19ebdcb3558251683691b965/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8395967f44e547bacf311bcbb5fd29bf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/629b0e0768068ca9262cf332ba6584dd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/28a96eec91d27a9b7ceb8f0ec58fb07a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/dd7199c1f9a042c03e3a0264b07e7012/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d747f111f4123d05748a54be9929c11c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3f6a82f07baa3cfd53301057bb49785c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/44163588dd4ed2115e0d59f4292c4327/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b06402fa373b147efcc21b985c27a33a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6657ae64b3ee70fd0c2b6136d396731c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6be88f523d07f5d7c89eb014d2f4ce9d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/55f278432af8b93a1626888760fc98f1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c7ce944e40a16f6f6bd6489adc284624/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/c884c76694cc60d0aef7098e018bdcc4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d190e260f3c5b975ebc9d8793d9205db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/expandable-layout-1.6.0.aar/ea979b8cade774ecfcbcfb460d798479/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.volley:volley:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ea03d4abd9ad1e73aad6b403003fd293/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/f6688c70762ce5a132c25a2304b9349b/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e17330634ef77842c5b21f2e482c77e9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/df895a018a9a2e4107355edba8a4e7e8/AndroidManifest.xml:17:1-28:12
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:4:5-63
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.5.aar/a2500dee0a253f8f6e5f5777091401b7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.5.aar/a2500dee0a253f8f6e5f5777091401b7/AndroidManifest.xml:9:5-67
+MERGED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:12:5-67
+MERGED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:12:5-67
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:16:5-67
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/beta-1.2.2.aar/f2ff0080d22fdbce65bdfea15c72a4a1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/beta-1.2.2.aar/f2ff0080d22fdbce65bdfea15c72a4a1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.14.aar/00c83355d1bfaa026c3ac0cddfcf00e7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.14.aar/00c83355d1bfaa026c3ac0cddfcf00e7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/answers-1.3.10.aar/63dfd7b71bcb3afee0dc791e5bd034ff/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/answers-1.3.10.aar/63dfd7b71bcb3afee0dc791e5bd034ff/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/fabric-1.3.14.aar/3471797db0dcfb35dcfc26e3ad9d14e5/AndroidManifest.xml:25:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/fabric-1.3.14.aar/3471797db0dcfb35dcfc26e3ad9d14e5/AndroidManifest.xml:25:5-67
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.4.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.4.1.aar/81a743d5dacc86759231bdae093945a2/AndroidManifest.xml:11:5-67
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.4.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.4.1.aar/81a743d5dacc86759231bdae093945a2/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:10:5-76
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:13:5-76
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:10:22-73
+application
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:12:5-32:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.5.aar/a2500dee0a253f8f6e5f5777091401b7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.5.aar/a2500dee0a253f8f6e5f5777091401b7/AndroidManifest.xml:11:5-20
+MERGED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:16:5-29:19
+MERGED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:16:5-29:19
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:28:5-41:19
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:28:5-41:19
+MERGED from [com.android.support:design:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/f8965b45b69b47e97277d5a814b75cae/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/f8965b45b69b47e97277d5a814b75cae/AndroidManifest.xml:22:5-20
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:17:5-48:19
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:17:5-48:19
+MERGED from [com.payu.magicretry:magicretry:1.0.6] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/magicretry-1.0.6.aar/62466255051e1b6cd3c3d4f8426ba46d/AndroidManifest.xml:11:5-22:19
+MERGED from [com.payu.magicretry:magicretry:1.0.6] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/magicretry-1.0.6.aar/62466255051e1b6cd3c3d4f8426ba46d/AndroidManifest.xml:11:5-22:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/beta-1.2.2.aar/f2ff0080d22fdbce65bdfea15c72a4a1/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/beta-1.2.2.aar/f2ff0080d22fdbce65bdfea15c72a4a1/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.14.aar/00c83355d1bfaa026c3ac0cddfcf00e7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.14.aar/00c83355d1bfaa026c3ac0cddfcf00e7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/answers-1.3.10.aar/63dfd7b71bcb3afee0dc791e5bd034ff/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/answers-1.3.10.aar/63dfd7b71bcb3afee0dc791e5bd034ff/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/fabric-1.3.14.aar/3471797db0dcfb35dcfc26e3ad9d14e5/AndroidManifest.xml:27:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/fabric-1.3.14.aar/3471797db0dcfb35dcfc26e3ad9d14e5/AndroidManifest.xml:27:5-20
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.4.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.4.1.aar/81a743d5dacc86759231bdae093945a2/AndroidManifest.xml:13:5-17:19
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.4.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.4.1.aar/81a743d5dacc86759231bdae093945a2/AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06227589a8e647012f1beb08cc28f3f9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06227589a8e647012f1beb08cc28f3f9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/28a96eec91d27a9b7ceb8f0ec58fb07a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/28a96eec91d27a9b7ceb8f0ec58fb07a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/dd7199c1f9a042c03e3a0264b07e7012/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/dd7199c1f9a042c03e3a0264b07e7012/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/expandable-layout-1.6.0.aar/ea979b8cade774ecfcbcfb460d798479/AndroidManifest.xml:12:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/expandable-layout-1.6.0.aar/ea979b8cade774ecfcbcfb460d798479/AndroidManifest.xml:12:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ea03d4abd9ad1e73aad6b403003fd293/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ea03d4abd9ad1e73aad6b403003fd293/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e17330634ef77842c5b21f2e482c77e9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e17330634ef77842c5b21f2e482c77e9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/df895a018a9a2e4107355edba8a4e7e8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/df895a018a9a2e4107355edba8a4e7e8/AndroidManifest.xml:22:5-26:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/28a96eec91d27a9b7ceb8f0ec58fb07a/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:16:9-41
+	tools:overrideLibrary
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:20:9-52
+	android:windowSoftInputMode
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:30:9-48
+	android:icon
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:14:9-36
+		REJECTED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:17:9-36
+		REJECTED from [com.payumoney.graphics:asset-download-sdk:0.4.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.4.1.aar/81a743d5dacc86759231bdae093945a2/AndroidManifest.xml:14:9-36
+	android:theme
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:18:9-40
+	tools:replace
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:19:9-44
+	android:usesCleartextTraffic
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:17:18-54
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.rahulhooda.integrationsampleapp_payumoneypnp.MainActivity
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:21:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:25:27-74
+meta-data#io.fabric.ApiKey
+ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:29:9-31:72
+	android:value
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:31:13-69
+	android:name
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml:30:13-44
+uses-sdk
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/5b45aff05aa0b0d93bbd03fb5a533cb9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/5b45aff05aa0b0d93bbd03fb5a533cb9/AndroidManifest.xml:20:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.5.aar/a2500dee0a253f8f6e5f5777091401b7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.5] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.5.aar/a2500dee0a253f8f6e5f5777091401b7/AndroidManifest.xml:7:5-43
+MERGED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:8:5-10:41
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/f8965b45b69b47e97277d5a814b75cae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/f8965b45b69b47e97277d5a814b75cae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/88d6e286facfe74e1acae828295e41b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/88d6e286facfe74e1acae828295e41b9/AndroidManifest.xml:20:5-44
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payu.magicretry:magicretry:1.0.6] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/magicretry-1.0.6.aar/62466255051e1b6cd3c3d4f8426ba46d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payu.magicretry:magicretry:1.0.6] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/magicretry-1.0.6.aar/62466255051e1b6cd3c3d4f8426ba46d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d95589aeb388d4d0c98a779563e3113d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d95589aeb388d4d0c98a779563e3113d/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/beta-1.2.2.aar/f2ff0080d22fdbce65bdfea15c72a4a1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.2] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/beta-1.2.2.aar/f2ff0080d22fdbce65bdfea15c72a4a1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.14.aar/00c83355d1bfaa026c3ac0cddfcf00e7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.14.aar/00c83355d1bfaa026c3ac0cddfcf00e7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/answers-1.3.10.aar/63dfd7b71bcb3afee0dc791e5bd034ff/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.10] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/answers-1.3.10.aar/63dfd7b71bcb3afee0dc791e5bd034ff/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/fabric-1.3.14.aar/3471797db0dcfb35dcfc26e3ad9d14e5/AndroidManifest.xml:23:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/fabric-1.3.14.aar/3471797db0dcfb35dcfc26e3ad9d14e5/AndroidManifest.xml:23:5-43
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.4.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.4.1.aar/81a743d5dacc86759231bdae093945a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.payumoney.graphics:asset-download-sdk:0.4.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asset-download-sdk-0.4.1.aar/81a743d5dacc86759231bdae093945a2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/94c78e8c4318e59391492d84791ca781/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/94c78e8c4318e59391492d84791ca781/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9af338e0a793363bbd6dd53ffae5173d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9af338e0a793363bbd6dd53ffae5173d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e3ad1c04220d64c4215567c1243f83ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e3ad1c04220d64c4215567c1243f83ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/06641b100718722e08050d08c9282e61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/06641b100718722e08050d08c9282e61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/eb4f07d8b6481fec13afa12d52889399/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/eb4f07d8b6481fec13afa12d52889399/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1f41fb3637510d1b77bd6c547c15e47b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1f41fb3637510d1b77bd6c547c15e47b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/6061be9088bbf6a113758c608b9d2576/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/6061be9088bbf6a113758c608b9d2576/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2f4a7f8261b6a5e25549666b5114602b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2f4a7f8261b6a5e25549666b5114602b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06227589a8e647012f1beb08cc28f3f9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06227589a8e647012f1beb08cc28f3f9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:viewpager:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3573c5ccf55d3e8679cc0ca9a0530e8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3573c5ccf55d3e8679cc0ca9a0530e8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9a6020254cbaf1f1cf3f70af2e2ed8e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9a6020254cbaf1f1cf3f70af2e2ed8e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/fdd2e51107b76be44e9f59e0d82527e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/fdd2e51107b76be44e9f59e0d82527e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/9788171451551a823cdff72e034cd1ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/9788171451551a823cdff72e034cd1ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0c0b614c19ebdcb3558251683691b965/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0c0b614c19ebdcb3558251683691b965/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8395967f44e547bacf311bcbb5fd29bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8395967f44e547bacf311bcbb5fd29bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/629b0e0768068ca9262cf332ba6584dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/629b0e0768068ca9262cf332ba6584dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/28a96eec91d27a9b7ceb8f0ec58fb07a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/28a96eec91d27a9b7ceb8f0ec58fb07a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/dd7199c1f9a042c03e3a0264b07e7012/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/dd7199c1f9a042c03e3a0264b07e7012/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d747f111f4123d05748a54be9929c11c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d747f111f4123d05748a54be9929c11c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3f6a82f07baa3cfd53301057bb49785c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3f6a82f07baa3cfd53301057bb49785c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/44163588dd4ed2115e0d59f4292c4327/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/44163588dd4ed2115e0d59f4292c4327/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b06402fa373b147efcc21b985c27a33a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b06402fa373b147efcc21b985c27a33a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6657ae64b3ee70fd0c2b6136d396731c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6657ae64b3ee70fd0c2b6136d396731c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6be88f523d07f5d7c89eb014d2f4ce9d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6be88f523d07f5d7c89eb014d2f4ce9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/55f278432af8b93a1626888760fc98f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/55f278432af8b93a1626888760fc98f1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c7ce944e40a16f6f6bd6489adc284624/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c7ce944e40a16f6f6bd6489adc284624/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/c884c76694cc60d0aef7098e018bdcc4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/c884c76694cc60d0aef7098e018bdcc4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d190e260f3c5b975ebc9d8793d9205db/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d190e260f3c5b975ebc9d8793d9205db/AndroidManifest.xml:20:5-44
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/expandable-layout-1.6.0.aar/ea979b8cade774ecfcbcfb460d798479/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/expandable-layout-1.6.0.aar/ea979b8cade774ecfcbcfb460d798479/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.volley:volley:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ea03d4abd9ad1e73aad6b403003fd293/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/ea03d4abd9ad1e73aad6b403003fd293/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/f6688c70762ce5a132c25a2304b9349b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/f6688c70762ce5a132c25a2304b9349b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e17330634ef77842c5b21f2e482c77e9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e17330634ef77842c5b21f2e482c77e9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/df895a018a9a2e4107355edba8a4e7e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/df895a018a9a2e4107355edba8a4e7e8/AndroidManifest.xml:20:5-44
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dolly.mittal/github/payumoney-new-sample-app/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:14:5-79
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:12:5-79
+MERGED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:12:5-79
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:11:5-79
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:14:22-76
+activity#com.payumoney.sdkui.ui.activities.PayUmoneyActivity
+ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:19:9-24:55
+	android:screenOrientation
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:22:13-49
+	android:label
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:21:13-58
+	android:windowSoftInputMode
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:24:13-52
+	android:theme
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:23:13-53
+	android:name
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:20:13-79
+activity#com.payumoney.sdkui.ui.activities.ReviewOrderActivity
+ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:25:9-28:56
+	android:screenOrientation
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:27:13-49
+	android:theme
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:28:13-53
+	android:name
+		ADDED from [com.payumoney.sdkui:plug-n-play:1.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/AndroidManifest.xml:26:13-81
+uses-feature#android.hardware.telephony
+ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:25:9-50
+activity#com.payumoney.core.SdkWebViewActivityNew
+ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:31:9-34:72
+	android:screenOrientation
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:33:13-49
+	android:theme
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:34:13-69
+	android:name
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:32:13-68
+activity#com.payu.custombrowser.CBActivity
+ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:35:9-40:59
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:18:9-21:63
+MERGED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:18:9-21:63
+	android:screenOrientation
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:37:13-49
+	android:windowSoftInputMode
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:39:13-60
+		REJECTED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:21:13-60
+	android:theme
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:38:13-51
+	tools:replace
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from [com.payumoney.core:payumoney-sdk:7.5.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/AndroidManifest.xml:36:13-61
+service#com.payu.custombrowser.services.SnoozeService
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:23:9-81
+	android:name
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:23:18-78
+activity#com.payu.custombrowser.upiintent.PaymentResponseActivity
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:25:9-28:63
+	android:windowSoftInputMode
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:28:13-60
+	android:theme
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:27:13-53
+	android:name
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:26:13-84
+activity#com.payu.custombrowser.PreLollipopPaymentsActivity
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:29:9-46:20
+	android:name
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:29:19-84
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:${applicationId}.success
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:30:13-37:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.rahulhooda.integrationsampleapp_payumoneypnp.success
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:30:13-37:29
+data
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:31:17-67
+	android:scheme
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:31:23-64
+action#android.intent.action.VIEW
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:33:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:35:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:36:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:${applicationId}.failure
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:38:13-45:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.rahulhooda.integrationsampleapp_payumoneypnp.failure
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:38:13-45:29
+activity#com.payu.custombrowser.PrePaymentsActivity
+ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:47:9-79
+	android:name
+		ADDED from [com.payu.custombrowser:payu-custom-browser:7.3.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/AndroidManifest.xml:47:19-76
+activity#com.payu.magicretry.MainActivity
+ADDED from [com.payu.magicretry:magicretry:1.0.6] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/magicretry-1.0.6.aar/62466255051e1b6cd3c3d4f8426ba46d/AndroidManifest.xml:12:9-21:20
+	android:name
+		ADDED from [com.payu.magicretry:magicretry:1.0.6] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/magicretry-1.0.6.aar/62466255051e1b6cd3c3d4f8426ba46d/AndroidManifest.xml:12:19-66
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06227589a8e647012f1beb08cc28f3f9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/06227589a8e647012f1beb08cc28f3f9/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/c5933e74affa22b50209166f1441fa14/AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/fbb3f9b45f50d1adb389fb820befb248/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/df895a018a9a2e4107355edba8a4e7e8/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/df895a018a9a2e4107355edba8a4e7e8/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/df895a018a9a2e4107355edba8a4e7e8/AndroidManifest.xml:24:13-58

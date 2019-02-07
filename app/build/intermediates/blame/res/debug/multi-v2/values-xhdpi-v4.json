@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dolly.mittal/github/payumoney-new-sample-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,163,211,266,321,368",
+                        "endColumns": "57,49,47,54,54,46,60",
+                        "endOffsets": "108,158,206,261,316,363,424"
+                    }
+                },
+                {
+                    "source": "/Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payumoney-sdk-7.5.0.aar/d9c25c40e043ca368f5c42318400a7fd/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,37",
+                        "endOffsets": "109,147"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "429,488",
+                        "endColumns": "58,37",
+                        "endOffsets": "483,521"
+                    }
+                }
+            ]
+        }
+    ]
+}

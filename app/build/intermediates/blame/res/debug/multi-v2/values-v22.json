@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dolly.mittal/github/payumoney-new-sample-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endLines": "2,5",
+                        "endColumns": "92,12",
+                        "endOffsets": "143,310"
+                    },
+                    "to": {
+                        "startLines": "14,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "901,994",
+                        "endLines": "14,17",
+                        "endColumns": "92,12",
+                        "endOffsets": "989,1156"
+                    }
+                },
+                {
+                    "source": "/Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d95589aeb388d4d0c98a779563e3113d/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        }
+    ]
+}

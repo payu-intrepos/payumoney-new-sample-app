@@ -9,12 +9,12 @@ public enum AppEnvironment {
     SANDBOX {
         @Override
         public String merchant_Key() {
-            return "LLKwG0";
+            return "QylhKRVd";
         }
 
         @Override
         public String merchant_ID() {
-            return "393463";
+            return "5960507";
         }
 
         @Override
@@ -29,7 +29,7 @@ public enum AppEnvironment {
 
         @Override
         public String salt() {
-            return "qauKbEAJ";
+            return "seVTUgzrgE";
         }
 
         @Override
@@ -40,14 +40,12 @@ public enum AppEnvironment {
     PRODUCTION {
         @Override
         public String merchant_Key() {
-            return "dcwQGU";
-        }  //O15vkB
-
+            return "QylhKRVd";
+        }
         @Override
         public String merchant_ID() {
-            return "4931752";
-        }   //4819816
-
+            return "5960507";
+        }
         @Override
         public String furl() {
             return "https://www.payumoney.com/mobileapp/payumoney/failure.php";
@@ -60,8 +58,8 @@ public enum AppEnvironment {
 
         @Override
         public String salt() {
-            return "dzC2i5pp";
-        }     //LU1EhObh
+            return "seVTUgzrgE";
+        }
 
         @Override
         public boolean debug() {

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dolly.mittal/github/payumoney-new-sample-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/plug-n-play-1.5.0.aar/0913725d7bfd8a6f50479866c1bba60d/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,44",
+                        "endOffsets": "108,153"
+                    }
+                }
+            ]
+        }
+    ]
+}

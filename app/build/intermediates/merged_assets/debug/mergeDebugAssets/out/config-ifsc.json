@@ -1,0 +1,186 @@
+{
+  "ICIC": [
+    "CID001",
+    "CID050"
+  ],
+  "UTIB": [
+    "CID002",
+    "CID080"
+  ],
+  "CITI": [
+    "CID003"
+  ],
+  "YESB": [
+    "CID004"
+  ],
+  "SBIN": [
+    "CID005"
+  ],
+  "DEUT": [
+    "CID006"
+  ],
+  "UBIN": [
+    "CID007"
+  ],
+  "IDIB": [
+    "CID008"
+  ],
+  "FDRL": [
+    "CID009"
+  ],
+  "HDFC": [
+    "CID010"
+  ],
+  "IBKL": [
+    "CID011"
+  ],
+  "SBHY": [
+    "CID012"
+  ],
+  "SBBJ": [
+    "CID013"
+  ],
+  "SBMY": [
+    "CID014"
+  ],
+  "SBTR": [
+    "CID015"
+  ],
+  "ANDB": [
+    "CID016"
+  ],
+  "BBKM": [
+    "CID017"
+  ],
+  "BARB": [
+    "CID046",
+    "CID018",
+    "CID020"
+  ],
+  "BKID": [
+    "CID019"
+  ],
+  "MAHB": [
+    "CID021"
+  ],
+  "CSBK": [
+    "CID022",
+    "CID045"
+  ],
+  "CBIN": [
+    "CID023"
+  ],
+  "CIUB": [
+    "CID024"
+  ],
+  "COPR": [
+    "CID025"
+  ],
+  "DCBL": [
+    "CID026",
+    "CID055"
+  ],
+  "IOBA": [
+    "CID027"
+  ],
+  "INDB": [
+    "CID028"
+  ],
+  "VYSA": [
+    "CID029",
+    "CID047"
+  ],
+  "JAKA": [
+    "CID030"
+  ],
+  "KARB": [
+    "CID031"
+  ],
+  "KVBL": [
+    "CID032"
+  ],
+  "KKBK": [
+    "CID033"
+  ],
+  "LAVB": [
+    "CID034",
+    "CID059",
+    "CID060"
+  ],
+  "ORBC": [
+    "CID035"
+  ],
+  "PUNB": [
+    "CID044",
+    "CID036",
+    "CID054"
+  ],
+  "SIBL": [
+    "CID037"
+  ],
+  "SCBL": [
+    "CID038"
+  ],
+  "SYNB": [
+    "CID039",
+    "CID067"
+  ],
+  "TMBL": [
+    "CID040",
+    "CID068"
+  ],
+  "UTBI": [
+    "CID041"
+  ],
+  "VIJB": [
+    "CID042"
+  ],
+  "STBP": [
+    "CID043"
+  ],
+  "CNRB": [
+    "CID051"
+  ],
+  "ALLA": [
+    "CID052"
+  ],
+  "COSB": [
+    "CID053"
+  ],
+  "BKDN": [
+    "CID056"
+  ],
+  "DLXB": [
+    "CID057"
+  ],
+  "JSBP": [
+    "CID058"
+  ],
+  "PMCB": [
+    "CID061"
+  ],
+  "PSIB": [
+    "CID062"
+  ],
+  "ABNA": [
+    "CID063"
+  ],
+  "RATN": [
+    "CID064"
+  ],
+  "SVCB": [
+    "CID065"
+  ],
+  "SRCB": [
+    "CID066"
+  ],
+  "TNSC": [
+    "CID069"
+  ],
+  "UCBA": [
+    "CID070"
+  ],
+  "HSBC": [
+    "CID090"
+  ]
+}

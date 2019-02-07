@@ -22,7 +22,6 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -32,7 +31,6 @@ import com.payumoney.core.PayUmoneyConfig;
 import com.payumoney.core.PayUmoneyConstants;
 import com.payumoney.core.PayUmoneySdkInitializer;
 import com.payumoney.core.entity.TransactionResponse;
-import com.payumoney.sdkui.ui.utils.PPConfig;
 import com.payumoney.sdkui.ui.utils.PayUmoneyFlowManager;
 import com.payumoney.sdkui.ui.utils.ResultModel;
 
@@ -41,7 +39,6 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
@@ -52,6 +49,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+//import com.payumoney.sdkui.ui.utils.PPConfig;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -104,11 +103,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         }
 
         logoutBtn.setOnClickListener(this);
-        switch_disable_wallet = (SwitchCompat) findViewById(R.id.switch_disable_wallet);
-        switch_disable_netBanks = (SwitchCompat) findViewById(R.id.switch_disable_netbanks);
-        switch_disable_cards = (SwitchCompat) findViewById(R.id.switch_disable_cards);
-        switch_disable_ThirdPartyWallets = (SwitchCompat) findViewById(R.id.switch_disable_ThirdPartyWallets);
-        switch_disable_ExitConfirmation = (SwitchCompat) findViewById(R.id.switch_disable_ExitConfirmation);
         AppCompatRadioButton radio_btn_sandbox = (AppCompatRadioButton) findViewById(R.id.radio_btn_sandbox);
         AppCompatRadioButton radio_btn_production = (AppCompatRadioButton) findViewById(R.id.radio_btn_production);
         radioGroup_select_env = (RadioGroup) findViewById(R.id.radio_grp_env);
@@ -171,7 +165,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private void setUpUserDetails() {
         userDetailsPreference = getSharedPreferences(AppPreference.USER_DETAILS, MODE_PRIVATE);
         userEmail = userDetailsPreference.getString(AppPreference.USER_EMAIL, mAppPreference.getDummyEmail());
-        userMobile = userDetailsPreference.getString(AppPreference.USER_MOBILE,"");
+
+        userMobile = userDetailsPreference.getString(AppPreference.USER_MOBILE, "");
+
         email_et.setText(userEmail);
         mobile_et.setText(userMobile);
         amount_et.setText(mAppPreference.getDummyAmount());
@@ -179,12 +175,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     }
 
     private void restoreAppPref() {
-        //Set Up Disable Options
-        switch_disable_wallet.setChecked(mAppPreference.isDisableWallet());
-        switch_disable_cards.setChecked(mAppPreference.isDisableSavedCards());
-        switch_disable_netBanks.setChecked(mAppPreference.isDisableNetBanking());
-        switch_disable_ThirdPartyWallets.setChecked(mAppPreference.isDisableThirdPartyWallets());
-        switch_disable_ExitConfirmation.setChecked(mAppPreference.isDisableExitConfirmation());
+
 
         //Set Up saved theme pref
         switch (AppPreference.selectedTheme) {
@@ -307,7 +298,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 // Response from SURl and FURL
                 String merchantResponse = transactionResponse.getTransactionDetails();
 
-               new AlertDialog.Builder(this)
+                new AlertDialog.Builder(this)
                         .setCancelable(false)
                         .setMessage("Payu's Data : " + payuResponse + "\n\n\n Merchant's Data: " + merchantResponse)
                         .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
@@ -391,41 +382,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 }
             }
         });
-
-        switch_disable_cards.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                PPConfig.getInstance().disableSavedCards(b);
-            }
-        });
-
-        switch_disable_netBanks.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                PPConfig.getInstance().disableNetBanking(b);
-            }
-        });
-
-        switch_disable_wallet.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                PPConfig.getInstance().disableWallet(b);
-            }
-        });
-
-        switch_disable_ThirdPartyWallets.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                PPConfig.getInstance().disableThirdPartyWallets(b);
-            }
-        });
-
-        switch_disable_ExitConfirmation.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                isDisableExitConfirmation = b;
-            }
-        });
     }
 
     /**
@@ -481,6 +437,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             e.printStackTrace();
         }
         String txnId = System.currentTimeMillis() + "";
+        //String txnId = "TXNID720431525261327973";
         String phone = mobile_til.getEditText().getText().toString().trim();
         String productName = mAppPreference.getProductInfo();
         String firstName = mAppPreference.getFirstName();
@@ -497,7 +454,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         String udf10 = "";
 
         AppEnvironment appEnvironment = ((BaseApplication) getApplication()).getAppEnvironment();
-        builder.setAmount(amount)
+        builder.setAmount(String.valueOf(amount))
                 .setTxnId(txnId)
                 .setPhone(phone)
                 .setProductName(productName)
@@ -525,20 +482,20 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             /*
             * Hash should always be generated from your server side.
             * */
-            generateHashFromServer(mPaymentParams);
+       //    generateHashFromServer(mPaymentParams);
 
 /*            *//**
              * Do not use below code when going live
              * Below code is provided to generate hash from sdk.
              * It is recommended to generate hash from server side only.
              * */
-           /* mPaymentParams = calculateServerSideHashAndInitiatePayment1(mPaymentParams);
+            mPaymentParams = calculateServerSideHashAndInitiatePayment1(mPaymentParams);
 
            if (AppPreference.selectedTheme != -1) {
                 PayUmoneyFlowManager.startPayUMoneyFlow(mPaymentParams,MainActivity.this, AppPreference.selectedTheme,mAppPreference.isOverrideResultScreen());
             } else {
                 PayUmoneyFlowManager.startPayUMoneyFlow(mPaymentParams,MainActivity.this, R.style.AppTheme_default, mAppPreference.isOverrideResultScreen());
-            }*/
+            }
 
         } catch (Exception e) {
             // some exception occurred

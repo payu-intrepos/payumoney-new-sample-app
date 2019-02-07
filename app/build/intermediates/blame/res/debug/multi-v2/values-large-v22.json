@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dolly.mittal/github/payumoney-new-sample-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v22/values-large-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/dolly.mittal/.gradle/caches/transforms-1/files-1.1/payu-custom-browser-7.3.0.aar/f926c1f135bbabce27ea8f6ec10faece/res/values-large-v22/values-large-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endLines": "2,5",
+                        "endColumns": "92,12",
+                        "endOffsets": "143,310"
+                    }
+                }
+            ]
+        }
+    ]
+}

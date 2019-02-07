@@ -1,0 +1,4 @@
+# Referenced at /Users/dolly.mittal/github/payumoney-new-sample-app/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:26
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/dolly.mittal/github/payumoney-new-sample-app/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:26
+-keep class com.rahulhooda.integrationsampleapp_payumoneypnp.BaseApplication { <init>(); }

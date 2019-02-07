@@ -1,0 +1,4 @@
+#Thu Feb 07 10:25:50 IST 2019
+base.0=/Users/dolly.mittal/github/payumoney-new-sample-app/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex
