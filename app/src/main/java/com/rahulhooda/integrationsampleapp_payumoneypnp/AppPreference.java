@@ -9,11 +9,10 @@ package com.rahulhooda.integrationsampleapp_payumoneypnp;
  * */
 public class AppPreference {
 
-    private String dummyMobile = "9881716157";
-    private String dummyAmount = "10";
-    private String dummyEmail = "xyz@gmail.com";
-    private String productInfo = "product_info";
-    private String firstName = "firstname";
+    private String dummyAmount = "10";//"10";
+    private String dummyEmail = "xyz@gmail.com";//"";//d.basak.db@gmail.com
+    private String productInfo ="product_info";// "product_info";
+    private String firstName = "firstname"; //"firstname";
     private boolean isOverrideResultScreen = true;
  
     public static final String USER_EMAIL = "user_email";
@@ -63,13 +62,6 @@ public class AppPreference {
         isDisableExitConfirmation = disableExitConfirmation;
     }
 
-    public String getDummyMobile() {
-        return dummyMobile;
-    }
-
-    public void setDummyMobile(String dummyMobile) {
-        this.dummyMobile = dummyMobile;
-    }
 
     public String getDummyAmount() {
         return dummyAmount;
