@@ -13,11 +13,11 @@ public class AppPreference {
     private String dummyEmail = "xyz@gmail.com";//"";//d.basak.db@gmail.com
     private String productInfo ="product_info";// "product_info";
     private String firstName = "firstname"; //"firstname";
-    private boolean isOverrideResultScreen = true;
+    private boolean isOverrideResultScreen = false;
  
     public static final String USER_EMAIL = "user_email";
     public static final String USER_MOBILE = "user_mobile";
-    public static final String PHONE_PATTERN = "^[987]\\d{9}$";
+    public static final String PHONE_PATTERN = "^[1-9]\\d{9}$";
     public static final long MENU_DELAY = 300;
     public static String USER_DETAILS = "user_details";
     public static int selectedTheme = -1;
